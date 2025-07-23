@@ -5,7 +5,48 @@
 [University of Nebraska-Lincoln](https://unl.edu)  
 
 This lab introduces you using generative artificial intelligence to
-help you code, test, and debug code.
+help you code, test, and debug code and demonstrates its pitfalls and
+limitations.
+
+## Prior to Lab
+
+* Read and familiarize yourself with this handout.
+
+## Peer Programming Pair-Up
+
+***For students in the online section:*** you may complete
+the lab on your own if you wish or you may team up with a partner
+of your choosing, or, you may consult with a lab instructor to get
+teamed up online (via Zoom).
+
+***For students in the on campus section:*** your lab instructor
+will team you up with a partner.  
+
+To encourage collaboration and a team environment, labs are be
+structured in a *peer programming* setup.  At the start of
+each lab, you will be randomly paired up with another student
+(conflicts such as absences will be dealt with by the lab instructor).
+One of you will be designated the *driver* and the other
+the *navigator*.  
+
+The navigator will be responsible for reading the instructions and
+telling the driver what to do next.  The driver will be in charge of the
+keyboard and workstation.  Both driver and navigator are responsible
+for suggesting fixes and solutions together.  Neither the navigator
+nor the driver is "in charge."  Beyond your immediate pairing, you
+are encouraged to help and interact and with other pairs in the lab.
+
+Each week you should alternate: if you were a driver last week,
+be a navigator next, etc.  Resolve any issues (you were both drivers
+last week) within your pair.  Ask the lab instructor to resolve issues
+only when you cannot come to a consensus.  
+
+Because of the peer programming setup of labs, it is absolutely
+essential that you complete any pre-lab activities and familiarize
+yourself with the handouts prior to coming to lab.  Failure to do
+so will negatively impact your ability to collaborate and work with
+others which may mean that you will not be able to complete the
+lab.  
 
 # Using Generative AI
 
@@ -62,13 +103,17 @@ is a Kaprekar number by trying all possible splits.  For example, for $n = 297$,
 $n^2 = 88209$, it will try:
 
 $8 + 8209 = 8217 \neq 297$
+
 $88 + 209 = 297 = 297$
+
 and would continue with $882 + 9$ and $8820+9$ if it didn't find the equality
 first.  For a *non-Kaprekar* number such as $n= 42$ it would use $n^2 = 1764$
 and try
 
 $1 + 764 = 765 \neq 42$
+
 $17 + 64 =  81 \neq 42$
+
 $176 + 4 = 180 \neq 42$
 
 before concluding it is *not* a Kaprekar number.
@@ -207,3 +252,17 @@ sums to 533170 using the standard Kaprekar number splitting.`
 When we provided an external source confirming that 533170 is a Kaprekar
 number it finally was able to demonstrate the correct split and conclude
 that `533170 is a Kaprekar number`
+
+# Handin/Grader Instructions
+
+1.  Hand in your completed files:
+
+    -   `kaprekar_utils.c`
+
+    -   `kaprekar_test_cmocka.c`
+
+    through the online handin system.  Be sure your program
+    passes all tests to get credit.
+
+2.  Even if you worked with a partner, you *both* should turn in all
+    files.

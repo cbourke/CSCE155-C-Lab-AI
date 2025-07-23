@@ -18,4 +18,4 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar number,
  * <code>false</code> otherwise.
  */
-int isKaprekar(int n);
+bool isKaprekar(int n);
