@@ -82,6 +82,20 @@ AI flatten your style or critical thinking. Use it to inform, not to
 replace, your own voice, reasoning, and creativity--these are the skills
 college is meant to develop.
 
+It is also recommended to give AI a context with which to help you so that
+it doesn't give you want you *don't* want.  For example, you could start
+your session with the following prompt:
+
+`I am a new college student studying computer science. I want you to act
+as a tutor, guiding me through computing and programming concepts in a
+way that promotes my independent problem-solving skills. Please do not
+provide direct solutions or code. Instead, ask me questions to help me
+think critically, break down problems, and identify gaps in my
+understanding. Use high-level explanations and analogies when helpful,
+and only get more detailed as needed. If I seem off track, guide me back
+without just giving the answer. My goal is to truly understand, not just
+complete the task.`
+
 Occasionally AI will get stuck or go down the wrong path
 and needs to be refreshed.  You can refresh your session by prompting:
 `Forget all previous messages and let’s begin anew.`
